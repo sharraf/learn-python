@@ -1,40 +1,50 @@
-# Learn Python for Kids
+# Learn Python 🐍
 
 Fun, hands-on Python lessons designed to help a child learn to code step-by-step. Each lesson introduces a small set of concepts with playful examples and a mini project. Short practice tasks help reinforce learning.
 
-## Who this is for
+## Who This Is For
 - Beginners and kids (no prior coding experience required)
 - Parents/teachers mentoring a young learner
 
-## How to use
-1. Open each lesson in order (1–9)
-2. Read the explanations and run the example code
-3. Try the homework/challenges at the end of each lesson
+## Getting Started
+1. **Start with Lesson 0** to set up VS Code on your computer
+2. Work through lessons 1–9 in order
+3. Read the explanations and run the example code
+4. Try the homework/challenges at the end of each lesson
 
-## Lessons
-- [Lesson 1: The Mad Libs Story Generator](lessons/1-print-input.md)
-  - Learn `print()`, `input()`, variables, and f-strings by building a funny story.
+## Lesson Overview
 
-- [Lesson 2: Movie Ticket Bot](lessons/2-if-else.md)
-  - Introduces `int()`, comparison operators, and `if`/`elif`/`else` to make decisions.
+### 🛠️ Setup
+- [Lesson 0: VS Code Setup](lessons/00-vscode-setup.md)
+  - Install VS Code and Python, create your first file, and learn to run code.
 
-- [Lesson 3: The Secret Password](lessons/3-while-loops.md)
-  - Practice `while` loops, the `!=` operator, and `break` to repeat actions until a goal is met.
+### 📦 Module 1: The Basics (Output & Memory)
+- [Lesson 1: Hello World — Printing](lessons/01-printing.md)
+  - Learn `print()` to display text and numbers. Understand strings vs numbers.
 
-- [Lesson 4: The Lucky Number Generator](lessons/4-import-random.md)
-  - Use `import random` and `random.randint()` to create games and random events.
+- [Lesson 2: Variables — Memory Boxes](lessons/02-variables.md)
+  - Store information in variables, change values, and use meaningful names.
 
-- [Lesson 5: Practice Problems](lessons/5-practice.md)
-  - A set of practice challenges combining input, conditions, and loops.
+- [Lesson 3: Input and F-strings](lessons/03-input-and-fstrings.md)
+  - Get user input with `input()` and build beautiful messages with f-strings.
 
-- [Lesson 6: Variables and Assignment](lessons/6-variable-assignment.md)
-  - Store inputs in variables, convert numbers, and update values with +=/-= and f-strings.
+### 🧠 Module 2: The Logic (Making Decisions)
+- [Lesson 4: Types and Casting](lessons/04-types-and-casting.md)
+  - Understand why `"5"` and `5` are different. Convert between text and numbers with `int()`, `float()`, and `str()`.
 
-- [Lesson 7: Say It Nicely with f-Strings](lessons/7-f-strings.md)
-  - Preferred way to build messages: put variables and math inside `{}`; avoid using `+` to glue strings.
+- [Lesson 5: Random Numbers](lessons/05-random-numbers.md)
+  - Use `import random` and `random.randint()` to add unpredictability to your programs.
 
-- [Lesson 8: If Power-Ups](lessons/8-advanced-if-branching.md)
-  - Go beyond basics with `and`/`or`/`not`, nested `if`, order of checks, and chained comparisons.
+- [Lesson 6: If/Else Logic](lessons/06-if-else-logic.md)
+  - Make decisions with `if`/`elif`/`else` and comparison operators. Learn why indentation matters!
 
-- [Lesson 9: The Great Cosmic Cafe Project](lessons/9-if-branching-problem.md)
-  - Build a full interactive ordering system using complex branching and combined conditions.
+- [Lesson 7: Complex Logic](lessons/07-complex-logic.md)
+  - Combine conditions with `and`/`or`/`not`, use nested `if` statements, and chain comparisons.
+
+### 🔄 Module 3: Flow Control (Repetition)
+- [Lesson 8: While Loops](lessons/08-while-loops.md)
+  - Repeat code with `while` loops, use `break` to exit early, and avoid infinite loops.
+
+### 🏆 Module 4: The Project
+- [Lesson 9: Final Project — The Cosmic Cafe](lessons/09-final-project.md)
+  - Build a complete ordering system! Combines everything: variables, input, logic, and loops.
